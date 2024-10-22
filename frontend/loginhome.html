@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/loginhome.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="mainContent">
+        <div class="top">
+            <h1 class="account-name"></h1>
+            <button id="signout">Sign Out</button>
+        </div>
+        <hr class="sousligne">
+        <div class="container">
+            <div class="left">
+                <div class="user-cercle"></div>
+                <div class="under-cercle">
+                    <button class="b-login button" onclick="openTab('home')" data-target="home">
+                        <span class="actual-text">Home</span>
+                        <span aria-hidden="true" class="hover-text">Home</span>
+                    </button>
+                    <button class="b-login button" onclick="openTab('about')" data-target="about">
+                        <span class="actual-text">Personal Informations</span>
+                        <span aria-hidden="true" class="hover-text">Personal Informations</span>
+                    </button>
+                    <button class="b-login button" onclick="openTab('contact')" data-target="contact">
+                        <span class="actual-text">Our Quizz</span>
+                        <span aria-hidden="true" class="hover-text">Our&nbsp;Quizz</span>
+                    </button>
+                    <button class="b-login button" onclick="openTab('personalInfo')" data-target="personalInfo">
+                        <span class="actual-text">About Us</span>
+                        <span aria-hidden="true" class="hover-text">About&nbsp;Us</span>
+                    </button>
+                    <button class="b-login button" onclick="openTab('quizz')" data-target="quizz">
+                        <span class="actual-text">Contact</span>
+                        <span aria-hidden="true" class="hover-text">Contact</span>
+                    </button>
+
+                </div>
+            </div>
+            <div class="right">
+                <div id="home" class="tab-content">
+                    <div class="square">
+                        <h1 class="title">
+                            Welcome to our website!
+                        </h1>
+                        <p class="welcome">
+                            Welcome to Quizz Creator, your ultimate platform for exploring, creating and sharing
+                            exciting quizzes.
+                            Dive into a world of knowledge where every quiz is an adventure. Whether you're here
+                            to test your knowledge
+                            or those of your friends, you've come to the right place!
+                        </p>
+                        <p class="me">
+                            At Quizz Creator, we offer a unique experience that lets anyone create quizzes
+                            on a variety of themes,
+                            and share the fun with friends. Our
+                            platform is designed to
+                            stimulate your curiosity and strengthen bonds through knowledge sharing.
+                        </p>
+                        <P class="action">
+                            Ready to take up the challenge? Click on "Create a Quiz" to launch your own quiz or
+                            browse our library to take
+                            quizzes created by our community. Share your score with your friends and see who
+                            has the most
+                            knowledge. Start now and enter the game of learning and sharing!
+                        </P>
+
+                        <button id="create" type="submit" class="logbou">
+                            Create your quiz !
+                        </button>
+                    </div>
+                </div>
+                <div id="personalInfo" class="tab-content" style="display:none">
+                    <div class="square-about">
+                        <p class="about">
+                            QuizzCreator, the innovative platform for creating and sharing interactive
+                            designed by Malo and Gianni,
+                            two cybersecurity enthusiasts and students determined to enrich learning and
+                            and exchange of knowledge
+                            through fun and educational quizzes. Launched in 2024, QuizzCreator enables anyone to
+                            easily create quizzes on a variety
+                            from general knowledge to a variety of subjects, offering a fun and enriching
+                            and enriching experience for
+                            for users from all walks of life.
+                        </p>
+                        <button id="personalInfo" class="logbou">
+                            Read more
+                        </button>
+                    </div>
+                </div>
+                <div id="quizz" class="tab-content" style="display:none">
+                    <div class="square-contact">
+                        <p class="contact">
+                            Your feedback is essential to help us improve QuizzCreator. If you have any
+                            questions or suggestions
+                            or if you'd like to know more about our commitment to privacy, please don't
+                            please do not hesitate to
+                            contact.quizzcreator@gmail.com
+                        </p>
+
+                    </div>
+                </div>
+                <div id="about" class="tab-content" style="display:none">
+                    <div class="square-info">
+                        <div class="notification">
+                            <div class="notiglow"></div>
+                            <div class="notiborderglow"></div>
+                            <div class="notititle">Account Name</div>
+                            <div class="notibody foraccountname"></div>
+                        </div>
+                        <div class="notification">
+                            <div class="notiglow"></div>
+                            <div class="notiborderglow"></div>
+                            <div class="notititle">Email</div>
+                            <div class="notibody">no time to do this featur</div>
+                        </div>
+                        <div class="notification">
+                            <div class="notiglow"></div>
+                            <div class="notiborderglow"></div>
+                            <div class="notititle">Adress</div>
+                            <div class="notibody">no time to do this featur</div>
+                        </div>
+                        <div class="notification">
+                            <div class="notiglow"></div>
+                            <div class="notiborderglow"></div>
+                            <div class="notititle">Phone Number</div>
+                            <div class="notibody">no time to do this featur</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="contact" class="tab-content" style="display:none">
+                    <div class="square-quizz">
+                        <p class="ourquizz">
+                            Welcome to "Our Quizzes", your personal space where your creativity comes to life!
+                            !
+                            Here you'll find
+                            all the quizzes you've designed, ready to be revisited, modified or shared. Whether you
+                            want to test your
+                            your knowledge, challenge your friends, or simply review your work, each quiz is a
+                            reflection
+                            of
+                            your curiosity and
+                            and ingenuity. Ready to dive back into your creations? Click on the button below
+                            to
+                            explore your collection
+                            and continue enriching the world of knowledge.
+                        </p>
+                        <button id="ourquizz" type="submit" class="logbou">
+                            View My Quizzes
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>© 2024 QuizzCreator, Inc. Tous droits réservés </p>
+        </footer>
+        <script>
+            window.onload = function () {
+                const username = localStorage.getItem('username');
+                const accountNameElements = document.querySelectorAll('.account-name, .foraccountname');
+                accountNameElements.forEach(function (element) {
+                    if (username) {
+                        element.textContent = username;
+                    }
+                });
+            };
+
+
+
+        </script>
+        <script src="assets/js/loginhome.js"></script>
+</body>
+
+</html>

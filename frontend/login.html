@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/login.css">
+    <title>test</title>
+</head>
+
+<body>
+    <div class="background">
+        <video class="background-video" autoplay loop muted playsinline>
+            <source src="assets/img/background.mp4" type="video/mp4">
+            Votre navigateur ne prend pas en charge les vidéos.
+        </video>
+    </div>
+    <div id="mainContent">
+        <div class="container">
+            <div class="wrapper">
+                <div class="card-switch">
+                    <label class="switch">
+                        <input type="checkbox" class="toggle">
+                        <span class="slider"></span>
+                        <span class="card-side"></span>
+                        <div class="flip-card__inner">
+                            <div class="flip-card__front">
+                                <div id="LogTitle" ></div>
+                                <div class="title">Log in</div>
+                                <form id="loginForm" class="flip-card__form" action="assets/js/login.js" method="POST">
+                                    <input id="loginusername" class="flip-card__input" name="username" placeholder="Username"
+                                        type="text">
+                                    <input id="loginpassword" class="flip-card__input" name="password"
+                                        placeholder="Password" type="password">
+                                    <button type="submit" class="flip-card__btn">Let`s go!</button>
+                                </form>
+                            </div>
+                            <div class="flip-card__back">
+                                <div id="SignTitle"></div>
+                                <div class="title">Sign up</div>
+                                <form id="signupForm" class="flip-card__form" action="/signup" method="POST">
+                                    <input id="signupName" class="flip-card__input" placeholder="Name" type="name">
+                                    <input id="signupPassword" class="flip-card__input" name="password"
+                                        placeholder="Password" type="password">
+                                    <button type="submit" class="flip-card__btn">Confirm!</button>
+                                </form>
+                            </div>
+                        </div>
+                    </label>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+    <script src="assets/js/login.js"></script>
+    <script src="assets/js/signup.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Agrandir GrandHeavy';
+    src: url('../font/Agrandir Font/Agrandir-GrandHeavy.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Agrandir GrandLight';
+    src: url('../font/Agrandir Font/Agrandir-GrandLight.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Agrandir Narrow';
+    src: url('../font/Agrandir Font/Agrandir-Narrow.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Agrandir Regular';
+    src: url('../font/Agrandir Font/Agrandir-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Agrandir TextBold';
+    src: url('../font/Agrandir Font/Agrandir-TextBold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Agrandir ThinItalic';
+    src: url('../font/Agrandir Font/Agrandir-ThinItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Agrandir Tight';
+    src: url('../font/Agrandir Font/Agrandir-Tight.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Agrandir WideBlackItalic';
+    src: url('../font/Agrandir Font/Agrandir-WideBlackItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Agrandir WideLight';
+    src: url('../font/Agrandir Font/Agrandir-WideLight.otf') format('opentype');
+}
+
+@font-face {
+    font-family: graffit;
+    src: url(../font/graffit.woff2);
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: auto;
+    background-color: #E4E2DD;
+}
+
+#mainContent {
+    width: 100%;
+    min-height: 100%;
+}
+
+.title {
+    font-family: Agrandir GrandHeavy;
+    color: #458cf4;
+    text-align: center;
+}
