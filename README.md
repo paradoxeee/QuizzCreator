@@ -1,3 +1,5 @@
+# BY GUALTIERI GIANNI
+
 ![Logo](https://i.ibb.co/VMw4Nd0/Discord-Profile-Banner-Quizz-Creator.png)
 
 QuizzCreator is an online quiz creation platform where users can create, share, and answer interactive quizzes. This project aims to provide a fun and accessible learning experience for everyone.
